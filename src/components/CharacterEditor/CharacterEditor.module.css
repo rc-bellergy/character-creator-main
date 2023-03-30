@@ -27,12 +27,23 @@
 
 .characterWrapper {
   position: fixed;
-  top: 80px;
+  top: 30px;
+  bottom: 0;
   right: 12%;
   min-height: 500px;
+  max-height: 800px;
   width: 30%;
 }
 
 .controlColumn {
   width: 50%;
+}
+
+.background {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
